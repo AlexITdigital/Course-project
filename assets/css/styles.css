@@ -7,9 +7,22 @@ body {
 }
 
 .experience {
-  background-image: url(/assets/images/back.jpg);
+  background-image: url(../images/back.jpg);
   max-height: max-content;
   color: #30cf08;
+}
+
+.skills {
+  background-image: url(../images/skills8.jpg);
+  max-height: max-content;
+  color: #30cf08;
+}
+
+.skills ul {
+  margin-top: 20px;
+}
+.skills li {
+  padding-bottom: 5px;
 }
 
 .pag {
@@ -17,6 +30,16 @@ body {
   background-color: #1a61a4b9;
   border-radius: 1em;
   padding: 1em;
+}
+
+.pag1 {
+  color: #fff;
+  background-color: #000305c9;
+  border-radius: 1em;
+  padding: 1em;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 150px;
 }
 
 .card {
@@ -414,7 +437,7 @@ a.btn-cta {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url(/assets/images/oboi.jpg);
+  background-image: url(../images/oboi.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -427,7 +450,7 @@ a.btn-cta {
 }
 
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url(/assets/images/oboi5.jpg);
+  background-image: url(../images/oboi5.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -451,17 +474,15 @@ a.btn-cta {
 }
 
 .about-section {
-  margin-top: 20px;
   padding-top: 10px;
 }
 
 .back {
-  margin: auto;
+  margin-top: 20px;
 }
 
 .about-section .section-title {
-  margin: 0;
-  margin-bottom: 15px;
+  padding-bottom: 5px;
   font-size: 36px;
   font-weight: 300;
 }
@@ -1125,5 +1146,11 @@ section.awSlider > img {
 
 .figure-holder .photo img {
   border-radius: 50%;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.718);
+}
+
+.skphoto img {
+  border-radius: 10px;
+  width: 520px;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.718);
 }
