@@ -235,6 +235,13 @@ a.btn-cta {
   padding: 10px 30px;
 }
 
+.btn-ctaі {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
 .btn-primary {
   background: #000000;
   border: 2px solid #30cf08;
@@ -1077,6 +1084,7 @@ section.awSlider > img {
 
 .contact-us {
   position: relative;
+  font-family: inherit;
 }
 
 .contact-us__image {
@@ -1114,6 +1122,7 @@ section.awSlider > img {
 }
 
 .contact-us__headline {
+  font-family: inherit;
   font-size: 30px;
   font-weight: 800;
   line-height: 36px;
