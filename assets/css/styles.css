@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", arial, sans-serif;
-  color: #494d55;
+  color: #000000;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -582,12 +582,7 @@ a.btn-cta {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* text-align: right; */
 }
-
-/* .item-1 {
-  padding-left: 900px;
-} */
 
 .hero-carousel .carousel-inner .item-2 {
   background-image: url(../images/oboi5.jpg);
