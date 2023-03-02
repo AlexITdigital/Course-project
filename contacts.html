@@ -48,7 +48,7 @@
     <header id="header" class="header">
       <div class="container">
         <h1 class="logo">
-          <a class="back" href="index.html">
+          <a href="index.html#hero">
             <span class="logo-icon-wrapper"
               ><img
                 class="logo-icon"
@@ -77,13 +77,13 @@
           <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active nav-item">
-                <a class="scrollto" href="#info">Про нас</a>
+                <a href="index.html#info">Про нас</a>
               </li>
               <li class="nav-item">
-                <a class="scrollto" href="#about">Про сайт</a>
+                <a href="index.html#about">Про сайт</a>
               </li>
               <li class="nav-item">
-                <a class="scrollto" href="#testimonials">Освіта</a>
+                <a href="index.html#testimonials">Освіта</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -97,19 +97,13 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a
-                      target="_blank"
-                      class="dropdown-item"
-                      href="experiences.html"
+                    <a class="dropdown-item" href="experiences.html"
                       >Про Владислава
                     </a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a
-                      target="_blank"
-                      class="dropdown-item"
-                      href="experience.html"
+                    <a class="dropdown-item" href="experience.html"
                       >Про Олександра
                     </a>
                   </li>
@@ -127,17 +121,20 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a target="_blank" class="dropdown-item" href="skill.html"
+                    <a class="dropdown-item" href="skill.html"
                       >Про Владислава
                     </a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a target="_blank" class="dropdown-item" href="skills.html"
+                    <a class="dropdown-item" href="skills.html"
                       >Про Олександра
                     </a>
                   </li>
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#galery">Галерея</a>
               </li>
               <li class="nav-item">
                 <a class="social" href="contacts.html">Контакти</a>
@@ -153,96 +150,103 @@
     </div>
     <div class="contact-us">
       <div class="contact-us__wrapper wrapper">
-        <h2 class="contact-us__headline">Зв'язатися з нами</h2>
-        <div class="contact-us__form-wrapper">
-          <form
-            action="contacts.html"
-            method="post"
-            enctype="multipart/form-data"
-            class="js-form"
-            id="brst-application-form"
-          >
-            <fieldset class="contact-us__form-group">
-              <div class="input contact-us__input js-input">
-                <input
-                  class="input__element js-form-first-name"
-                  id="first-name"
-                  type="text"
-                  placeholder="First name"
-                  name="brst_applicant_name"
-                />
-                <label for="first-name" class="input__placeholder"
-                  >Ваше ім’я:</label
-                >
-                <span class="input__line"></span>
-                <span class="input__message js-input-message"></span>
-              </div>
-              <div class="input contact-us__input js-input">
-                <input
-                  class="input__element js-form-last-name"
-                  id="last-name"
-                  type="text"
-                  placeholder="Last name"
-                  name="brst_applicant_last_name"
-                />
-                <label for="last-name" class="input__placeholder"
-                  >Ваше прізвище:</label
-                >
-                <span class="input__line"></span>
-                <span class="input__message js-input-message"></span>
-              </div>
-              <div class="input contact-us__input js-input">
-                <input
-                  class="input__element js-form-tel"
-                  id="tel"
-                  type="tel"
-                  inputmode="tel"
-                  placeholder="Phone"
-                  name="brst_applicant_phone"
-                />
-                <label for="tel" class="input__placeholder"
-                  >Номер телефону:</label
-                >
-                <span class="input__line"></span>
-                <span class="input__message js-input-message"></span>
-              </div>
-              <div class="input contact-us__input js-input">
-                <input
-                  class="input__element js-form-email"
-                  id="email"
-                  type="email"
-                  inputmode="email"
-                  autocomplete="email"
-                  placeholder="Email"
-                  name="brst_applicant_email"
-                />
-                <label for="email" class="input__placeholder"
-                  >Електронна пошта:</label
-                >
-                <span class="input__line"></span>
-                <span class="input__message js-input-message"></span>
-              </div>
-              <div class="input input--textarea contact-us__input js-input">
-                <textarea
-                  class="input__element js-form-textarea"
-                  id="message"
-                  placeholder="message"
-                  name="message"
-                ></textarea>
-                <label for="message" class="input__placeholder"
-                  >Ваше повідомлення:</label
-                >
-                <span class="input__line"></span>
-                <span class="input__message js-input-message"></span>
-              </div>
-            </fieldset>
+        <h2 class="contact-us__zagcon">Зв'язатися з нами</h2>
+        <div class="contact-us__form-wrapper row">
+          <div class="item col-md-12 col-sm-12 col-xs-12">
+            <form
+              action="contacts.html"
+              method="post"
+              enctype="multipart/form-data"
+              class="js-form"
+              id="brst-application-form"
+            >
+              <fieldset class="contact-us__form-group">
+                <div class="input contact-us__input js-input">
+                  <input
+                    class="input__element js-form-first-name"
+                    id="first-name"
+                    type="text"
+                    placeholder="First name"
+                    name="brst_applicant_name"
+                  />
+                  <label for="first-name" class="input__placeholder"
+                    >Ваше ім’я:</label
+                  >
+                  <span class="input__line"></span>
+                  <span class="input__message js-input-message"></span>
+                </div>
+                <div class="input contact-us__input js-input">
+                  <input
+                    class="input__element js-form-last-name"
+                    id="last-name"
+                    type="text"
+                    placeholder="Last name"
+                    name="brst_applicant_last_name"
+                  />
+                  <label for="last-name" class="input__placeholder"
+                    >Ваше прізвище:</label
+                  >
+                  <span class="input__line"></span>
+                  <span class="input__message js-input-message"></span>
+                </div>
+                <div class="input contact-us__input js-input">
+                  <input
+                    class="input__element js-form-tel"
+                    id="tel"
+                    type="tel"
+                    inputmode="tel"
+                    placeholder="Phone"
+                    name="brst_applicant_phone"
+                  />
+                  <label for="tel" class="input__placeholder"
+                    >Номер телефону:</label
+                  >
+                  <span class="input__line"></span>
+                  <span class="input__message js-input-message"></span>
+                </div>
+                <div class="input contact-us__input js-input">
+                  <input
+                    class="input__element js-form-email"
+                    id="email"
+                    type="email"
+                    inputmode="email"
+                    autocomplete="email"
+                    placeholder="Email"
+                    name="brst_applicant_email"
+                  />
+                  <label for="email" class="input__placeholder"
+                    >Електронна пошта:</label
+                  >
+                  <span class="input__line"></span>
+                  <span class="input__message js-input-message"></span>
+                </div>
+                <div class="input input--textarea contact-us__input js-input">
+                  <textarea
+                    class="input__element js-form-textarea"
+                    id="message"
+                    placeholder="message"
+                    name="message"
+                  ></textarea>
+                  <label for="message" class="input__placeholder"
+                    >Ваше повідомлення:</label
+                  >
+                  <span class="input__line"></span>
+                  <span class="input__message js-input-message"></span>
+                </div>
+              </fieldset>
 
-            <input type="hidden" name="submitted" id="submitted" value="true" />
-            <button class="btn btn-primary btn-ctaі" type="submit" unlocked>
-              Відправити повідомлення
-            </button>
-          </form>
-          <div class="map">
+              <input
+                type="hidden"
+                name="submitted"
+                id="submitted"
+                value="true"
+              />
+              <button class="btn btn-primary btn-ctaі" type="submit" unlocked>
+                Відправити повідомлення
+              </button>
+            </form>
+          </div>
+          <div class="map col-md-6 col-sm-5 col-lg-9">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d43562.819130143704!2d31.97456918500976!3d46.968051713626025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1677652878740!5m2!1sru!2sua"
               width="600"

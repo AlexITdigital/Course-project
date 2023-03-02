@@ -1101,13 +1101,12 @@ section.awSlider > img {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 40px;
-  margin-right: auto;
 }
 
 .contact-us {
   position: relative;
   font-family: inherit;
+  padding: 20px;
 }
 
 .contact-us__image {
@@ -1128,9 +1127,8 @@ section.awSlider > img {
 
 .map {
   position: absolute;
-  display: block;
   top: 50px;
-  margin-left: 300px;
+  padding: 30px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1144,17 +1142,19 @@ section.awSlider > img {
   }
 }
 
-.contact-us__headline {
+.contact-us__zagcon {
+  margin-top: 0px;
+  padding-top: 20px;
   font-family: inherit;
   font-size: 30px;
   font-weight: 800;
   line-height: 36px;
   text-align: center;
-  color: #fff;
+  color: #30cf08;
 }
 
 @media (min-width: 1170px) {
-  .contact-us__headline {
+  .contact-us__zagcon {
     color: #30cf08;
     font-size: 36px;
     line-height: 40px;
