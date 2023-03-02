@@ -24,7 +24,7 @@ $(document).ready(function () {
 
 $("section.awSlider .carousel").carousel({
   pause: "hover",
-  interval: 2000,
+  interval: 5000,
 });
 
 var startImage = $("section.awSlider .item.active > img").attr("src");
