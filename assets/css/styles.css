@@ -119,7 +119,7 @@ body {
 }
 
 .experience {
-  background-image: url(../images/back.jpg);
+  background-image: url(../images/skill25.jpg);
   max-height: max-content;
   color: #30cf08;
 }
@@ -137,6 +137,19 @@ body {
   padding-bottom: 5px;
 }
 
+.skill {
+  background-image: url(../images/skills8.jpg);
+  max-height: max-content;
+  color: #30cf08;
+}
+
+.skill ul {
+  margin-top: 20px;
+}
+.skill li {
+  padding-bottom: 5px;
+}
+
 .pag {
   color: #fff;
   background-color: #1a61a4b9;
@@ -151,7 +164,17 @@ body {
   padding: 1em;
   text-align: left;
   margin-top: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 20px;
+}
+
+.cards img {
+  border-radius: 15px;
+  width: 100%;
+}
+.cards {
+  margin-top: 20px;
+  padding: 5px 20px;
+  margin-bottom: 5px;
 }
 
 .card {
@@ -183,7 +206,7 @@ body {
 }
 
 .logotip {
-  width: 350px;
+  /* width: 350px; */
   margin: auto;
 }
 
