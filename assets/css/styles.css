@@ -88,7 +88,7 @@ body {
   background: #c71515;
 }
 .team-section .social a.twitter:hover {
-  background: #3ea1ec;
+  background: #c71515;
 }
 .team-section .social a.facebook {
   background: #3b5998;
@@ -477,6 +477,9 @@ a.btn-cta {
 
 .main-nav .nav .nav-item a:hover {
   color: #30cf08;
+  background: none;
+  outline: none;
+  background: none;
 }
 
 .main-nav .nav .nav-item a:focus {
@@ -485,11 +488,6 @@ a.btn-cta {
 }
 
 .main-nav .nav .nav-item a:active {
-  outline: none;
-  background: none;
-}
-
-.main-nav .nav .nav-item a:hover {
   outline: none;
   background: none;
 }
