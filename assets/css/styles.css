@@ -579,17 +579,17 @@ a.btn-cta {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url(../images/oboi.jpg);
+  background-image: url(../images/oboi7.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  text-align: right;
+  /* text-align: right; */
 }
 
-.item-1 {
+/* .item-1 {
   padding-left: 900px;
-}
+} */
 
 .hero-carousel .carousel-inner .item-2 {
   background-image: url(../images/oboi5.jpg);
