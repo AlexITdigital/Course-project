@@ -155,7 +155,7 @@ body {
 
 .pag {
   color: #fff;
-  background-color: #1a61a4b9;
+  background-color: #00721c;
   border-radius: 1em;
   padding: 1em;
 }
@@ -209,7 +209,6 @@ body {
 }
 
 .logotip {
-  /* width: 350px; */
   margin: auto;
 }
 
@@ -508,7 +507,7 @@ a.btn-cta {
   padding: 15px 0;
 }
 .footer a {
-  color: #40babd;
+  color: #30cf08;
 }
 
 .hero-section {
@@ -655,7 +654,7 @@ a.btn-cta {
 }
 
 .about-section .items-wrapper .item-desc {
-  color: #616670;
+  color: #000000;
 }
 
 .technologies {
@@ -857,7 +856,7 @@ section.awSlider > img {
 .testimonials-section .item .profile-image {
   display: inline-block;
   margin: 0 auto;
-  width: 80px;
+  width: 75px;
   height: 80px;
 }
 .testimonials-section .item .quote {
@@ -894,7 +893,6 @@ section.awSlider > img {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .navbar-collapse {
     border-top: none;
@@ -979,7 +977,7 @@ section.awSlider > img {
     min-height: inherit;
   }
 }
-/* Small devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
   .feature-nav {
     text-align: left;
@@ -1001,7 +999,7 @@ section.awSlider > img {
     min-height: 515px;
   }
 }
-/* Medium devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
   .feature-nav {
     margin-top: 30px;
@@ -1029,7 +1027,7 @@ section.awSlider > img {
     min-height: 490px;
   }
 }
-/* Large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
   .hero-section .figure-holder .figure-image {
     width: 570px;
